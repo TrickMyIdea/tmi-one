@@ -1,0 +1,32 @@
+/*
+* Global
+*/
+$brand: #399bff;
+$brand-2: #1C7EBB;
+$gray: #000;
+$white: #fff;
+
+
+/*
+ * 	Owl Carousel theme
+ */
+
+//nav
+$nav-color: 			$white !default;
+$nav-color-hover:		$white !default;
+$nav-font-size: 		14px !default;
+$nav-rounded: 			3px !default;
+$nav-margin: 			5px !default;
+$nav-padding: 			4px 7px !default;
+$nav-background: 		$dgray !default;
+$nav-background-hover:	$brand !default;
+$nav-disabled-opacity: 	0.5 !default;
+
+//dots
+$dot-width:				10px !default;
+$dot-height:			10px !default;
+$dot-rounded:			30px !default;
+$dot-margin: 			5px 7px !default;
+$dot-background:		$dgray !default;
+$dot-background-active:	$brand !default;
+
