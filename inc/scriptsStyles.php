@@ -71,7 +71,7 @@ function tmiEnqueueStyle() {
 
       }
 
-      add_action( 'wp_enqueue_scripts', 'tmiEnqueueStyle' );
+      add_action( 'wp_enqueue_scripts', 'tmiEnqueueStyle', 999 );
       add_action( 'wp_enqueue_scripts', 'tmiEnqueueScript' );
 
       function tmiGetFontLink($gFonts, $i){
